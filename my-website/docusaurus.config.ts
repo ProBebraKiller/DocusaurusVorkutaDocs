@@ -22,7 +22,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ProBebraKiller',
-  projectName: 'DocusaurusVorkutaDocsBuild',
+  projectName: 'DocusaurusVorkutaDocs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
