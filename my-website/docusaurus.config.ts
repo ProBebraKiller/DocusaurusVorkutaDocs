@@ -1,7 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -15,15 +14,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'http://www.vorkutagame.great-site.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ProBebraKiller',
+  projectName: 'DocusaurusVorkutaDocsBuild',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -71,7 +70,10 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+    },
+    image: 'img/buff-tf2-engineer-black&white.jpg',
     navbar: {
       title: 'Vorkuta',
       logo: {
@@ -145,5 +147,12 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
+/*module.exports = {
+    title: 'My Site',
+    url: 'https://github.com/ProBebraKiller',
+    baseUrl: '/',
+    projectName: 'DocsaurusVorkutaDocs',
+    organizationName: 'ProBebraKiller',
+};*/
 
 export default config;
