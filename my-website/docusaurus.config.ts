@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Vorkuta',
   tagline: 'Documentation site for all of the strange things happening in code',
-  favicon: 'img/buff-tf2-engineer-black&white.ico',
+  favicon: 'img/png_black_und_what_engi_buff_tf2.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -76,7 +76,7 @@ const config: Config = {
       title: 'Vorkuta',
       logo: {
         alt: 'Vorkuta Logo',
-        src: 'img/buff-tf2-engineer-black&white.ico',
+        src: 'img/png_black_und_what_engi_buff_tf2.ico',
       },
       items: [
         {
@@ -85,15 +85,15 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
+        // {to: '/blog', label: 'Blog', position: 'left'},
+        /*{
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
-        },
+        },*/
       ],
     },
-    footer: {
+    /*footer: {
       style: 'dark',
       links: [
         {
@@ -137,7 +137,7 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+    },*/
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

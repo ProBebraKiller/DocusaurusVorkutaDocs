@@ -28,7 +28,7 @@ public class MyNode : Node
 OnDraw is an abstract method of Node class that is being used for drawing the body of the node, it's better to do with built-in API, but nothing stops you
 from writing your own fields
 
-```charp
+```csharp
 namespace NodeEditor.Nodes.NPC
 {
     public class MyNode : Node
